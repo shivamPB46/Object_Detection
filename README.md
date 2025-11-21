@@ -7,47 +7,34 @@ The script loads a pretrained YOLOv8 model, detects vehicles (car, truck, bus, m
 ✅ YOLOv8 Object Detection
 
 Uses Ultralytics YOLOv8 pretrained on the COCO dataset
-
 Detects vehicles with high accuracy
-
 Supports: car, truck, bus, motorbike
 
 ✅ Clean Visualization
 
 Bounding boxes drawn using YOLO’s built-in .plot()
-
 Outputs a clear, annotated image
-
 Displayed using Matplotlib
 
 ✅ Automatic Vehicle Counting
 
 Extracts class labels from YOLO detections
-
 Counts each type using Python’s Counter
-
 Prints vehicle-wise count + total count
 
 ✅ Simple & Beginner-Friendly
 
 Short, clean code
-
 Easy to run
-
 No complex setup required
 
 🛠️ Technologies Used
 
 Python 3
-
 OpenCV
-
 Ultralytics YOLOv8
-
 Matplotlib
-
 NumPy
-
 cvlib (optional object detection utility)
 
 📦 Setup & Installation
@@ -62,7 +49,6 @@ model = YOLO("yolov8n.pt")
 
 3. Run the script
 python vehicle_detection.py
-
 📁 Project Structure
 │── vehicle_detection.py
 │── cars.webp
@@ -82,18 +68,12 @@ Motorbikes detected: 2
 Total vehicles detected: 8
 
 
-(Add your own screenshot here)
-
 🔮 Future Enhancements (Optional)
 
 Real-time video detection using webcam
-
 Vehicle tracking across frames (SORT / DeepSORT)
-
 Speed estimation
-
 License plate detection
-
 Export results to Excel/PDF
 
 🤝 Contributing
